@@ -6,32 +6,29 @@
    ```bash
    git clone https://github.com/<username>/hotel-booking-laravel.git
    cd hotel-booking-laravel
+   ```
 Install dependencies:
 
-bash
-Copy code
+```bash
 composer install
 npm install && npm run dev
+```
 Copy .env.example menjadi .env lalu sesuaikan database-nya.
 
 Import database:
 
-bash
-Copy code
-mysql -u root -p laravel_db < database/laravel_db.sql
+    ```bash
+    mysql -u root -p laravel_db < database/laravel_db.sql
+    ```
 Jalankan migrasi tambahan (kalau ada):
 
-bash
-Copy code
+```bash
 php artisan migrate
+```
 Jalankan server:
 
-bash
-Copy code
+```bash
 php artisan serve --host=0.0.0.0 --port=8000
-yaml
-Copy code
-
 ---
 
 ## 🧠 Tips Tambahan
