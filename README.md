@@ -19,17 +19,16 @@ Import database:
 
     ```bash
     mysql -u root -p laravel_db < database/laravel_db.sql
-    ```
+    
 Jalankan migrasi tambahan (kalau ada):
 
 ```bash
 php artisan migrate
-```
+
 Jalankan server:
 
 ```bash
 php artisan serve --host=0.0.0.0 --port=8000
----
 
 ## 🧠 Tips Tambahan
 
